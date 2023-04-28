@@ -1,0 +1,112 @@
+/* Write some CSS below */
+body {
+  font-family: 'Hubballi', cursive;
+  color: #404042;
+  font-size: 22px;
+  text-align: center;
+}
+
+
+a { 
+  color: #1A48E3;
+  font-weight: calibri;
+  text-decoration: none;
+  transition: .3s;
+  text-align: center;
+}
+
+a:hover {
+  color: #293132;
+}
+
+.button-white {
+  background-color: #F8F1FF;
+  color: black;
+  padding: 16px 48px;
+  border-radius: 4px;
+  display: inline-block;
+  text-decoration: none;
+  transition: .3s;
+  text-align: center;
+}
+
+.button-white:hover {
+  background-color: #F8F1FF;
+  color: black;
+  align : center;
+}
+
+.card-white {
+  background: white;
+  box-shadow: 0 0 16px rgba(0,0,0,0.1);
+  border-radius: 4px;
+  width: 200px;
+  text-align: center;
+  padding: 24px;
+  margin: 8px;
+}
+
+.card-white img {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.card-white h3 {
+  margin-bottom: 0;
+  text-align: center;
+}
+
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: black;
+  color: white;
+  padding: 20px;
+}
+
+container {
+	align-self: center;
+	}
+
+
+.cards {
+  display: grid;
+  grid-template-columns: 200fr 200fr 200fr;
+  grid-gap: 1px;
+  column-rule-width: 20;
+  cards-align : center;
+  justify-content;
+  align-cards: center;
+  width : 790px;
+  grid-auto-flow: dense;
+  margin : auto;
+  column-width: 50%;
+}
+
+h2 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 17px;
+	text-align: center;
+}
+
+h3 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 15px;
+    text-align: center;
+}
+
+
+{
+ display: grid;
+  width: 540px;
+  grid-template-columns: 120px 120px 120px;
+  align-items: start;
+  justify-content: space-between;
+  }
